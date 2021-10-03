@@ -1,0 +1,10 @@
+{
+    "name": {
+        "id": 1,
+        "userName": "ivan",
+        "userLastName": "munoz"
+    },
+    "paymentsSum": 0,
+    "newPaymentsSum": 0,
+    "newPaymentsAmount": 0
+}

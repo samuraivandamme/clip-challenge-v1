@@ -1,0 +1,11 @@
+[
+    {
+        "userId": {
+            "id": 2,
+            "userName": "veronica",
+            "userLastName": "garcia"
+        },
+        "amount": 289.5,
+        "payment": 300.00
+    }
+]

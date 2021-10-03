@@ -1,14 +1,15 @@
 package com.example.clip.request;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.math.BigDecimal;
 
-@Getter
-@Setter
+import lombok.Data;
+/**
+ * @author Ivan
+ *
+ */
+@Data
 public class PaymentRequest {
 
-    String userId;
+    Integer userId;
     BigDecimal amount;
 }

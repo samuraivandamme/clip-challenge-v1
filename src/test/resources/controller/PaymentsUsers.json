@@ -1,0 +1,12 @@
+[
+  {
+        "id": 1,
+        "amount": 300.00,
+        "status": "NEW",
+        "user": {
+            "id": 1,
+            "userName": "ivan",
+            "userLastName": "munoz"
+        }
+    }
+]

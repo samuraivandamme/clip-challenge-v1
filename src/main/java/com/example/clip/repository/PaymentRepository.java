@@ -1,8 +1,19 @@
 package com.example.clip.repository;
 
-import com.example.clip.model.Payment;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface PaymentRepository extends JpaRepository<Payment, Long> {
+import com.example.clip.entities.Payment;
+import com.example.clip.model.enums.StatusEnum;
+/**
+ * @author Ivan
+ *
+ */
+public interface PaymentRepository extends JpaRepository<Payment, Integer> {
+	
+	List<Payment> findByStatus(StatusEnum status);
+	
+	List<Payment> findByUserId(Integer userId);
 
 }
